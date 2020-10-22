@@ -1,65 +1,49 @@
 # banner
 banner:
-  title : "Ciao! Noi siamo i <br> DMI Insider <br>"
+  title : "I DMI Insider<br>ti danno il benvenuto"
 
 # about
 about:
   enable : true
-  content : "Siamo un gruppo di studenti del Dipartimento di Matematica e Informatica dell'Università degli Studi di Catania. Da anni ci impegnamo per migliorare la vita all'interno del nostro dipartimento attraverso l'organizzazione di eventi, progetti e soprattutto rappresentanza."
+  content : "Siamo un gruppo di studenti del Dipartimento di Matematica e Informatica dell'Università di Catania.
+            Da anni ci impegnamo per migliorare la vita all'interno del nostro dipartimento 
+            fornendo agli studenti un organo di rappresentanza performante
+            e organizzando per loro eventi e progetti al fine di favorire l'aggregazione e incoraggiare
+            il libero scambio di idee"
   button:
     enable : true
     label : "Voglio saperne di più"
     URL : "about"
 
-# education
-education:
-  enable : true
-  title : "La nostra storia"
-  item:
-    - title : "Fondazione DMI Insider"
-      year : "2016"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
-
 # service
 service:
   enable : true
-  title : "Servizi"
+  title : "Cosa facciamo"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Progetti"
+      icon : "ti-github"
+      content : "Contribuiamo e sosteniamo attivamente progetti Open Source che possano fornire servizi e strumenti atti a migliorare l'interazione degli studenti con i singoli dipartimenti e con l'ateneo tutto."
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : true
+    - title : "Rappresentanza"
+      icon : "ti-heart"
+      content : "Ci contraddistinguono l'impegno quotidiano e l'ambizione. Ascoltiamo gli studenti e reattivamente provvediamo a soddisfare le loro esigenze. Vogliamo essere una componente attiva  all'interno del vostro percorso di studi e di crescita personale."
+      highlighted : false
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Eventi"
+      icon : "ti-comments"
+      content : "Incoraggiamo l'aggregazione, lo scambio di idee e la diffusione di nuove tecnologie organizzando eventi e workshop, coinvolgendo associazioni locali ed esperti del settore."
       highlighted : false
 
 # portfolio
 projects:
   enable : true
   title : "Progetti"
-  item_show : 5
+  item_show : 9
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # blog
-blog:
-  enable : true
-  title : "Blogs"
-  # blog post comes from "content/blog" folder
+# blog:
+#   enable : true
+#   title : "Blogs"
+#   # blog post comes from "content/blog" folder

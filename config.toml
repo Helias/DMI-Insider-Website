@@ -1,9 +1,11 @@
 # default configuration
 baseUrl = "./"
+canonifyURLs = false
 languageCode = "it"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "DMI Insider"
+logo = "images/logo.svg"
 
 # css plugins
 [[params.plugins.css]]
@@ -32,11 +34,6 @@ name = "Chi siamo"
 weight = 1
 
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-
-[[menu.main]]
 URL = "projects"
 name = "Progetti"
 weight = 3
@@ -50,7 +47,7 @@ weight = 4
 # default parameters
 [params]
 home = "Home"
-logo = ""
+logo = "images/logo.svg"
 # theme color
 theme_color = "#399ff3"
 # copyright

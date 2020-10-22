@@ -698,10 +698,10 @@ textarea.form-control {
   bottom: -50px
 }
 
-.footer-section {
+/* .footer-section {
   padding-top: 200px
 }
-
+ */
 .section-on-footer {
   margin-bottom: -250px
 }
@@ -914,4 +914,56 @@ blockquote {
 
 .project-meta p{
   margin-bottom: 0;
+}
+
+.greyscale-effect {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+}
+.greyscale-effect:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+.greyscale-effect, .greyscale-effect:hover {
+  transition: all .5s ease-in-out;
+}
+
+.opis-table {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.opis-table tr td {
+  padding: 10px;
+}
+
+.profile-member:hover div div.hidden-desc {
+  max-height: 100px;
+}
+.hidden-desc {
+  max-height: 0px;
+}
+.profile-member:hover div div.hidden-desc span {
+  z-index: 100;
+  visibility: visible;
+}
+.hidden-desc span {
+  z-index: 100;
+  visibility: hidden;
+}
+.profile-member:hover div div.hidden-desc, .hidden-desc {
+  transition: 1s ease;
+}
+
+.project-desc {
+  background-color: rgb(255, 255, 255);
+  font-family: playfair display,serif;
+}
+.project-img {
+  max-width: 300px;
+}
+.bot-gif {
+  height: 500px;
+  margin: 0 auto;
+  display: block;
 }
